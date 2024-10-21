@@ -1,0 +1,14 @@
+[requires]
+gtest/1.14.0
+opencv/4.5.5
+taocpp-json/1.0.0-beta.13
+magic_enum/0.8.1
+[options]
+opencv*:with_tiff=False
+opencv*:with_webp=False
+opencv*:with_ffmpeg=False
+opencv*:with_gtk=False
+opencv*:with_qt=False
+[generators]
+CMakeDeps
+CMakeToolchain
